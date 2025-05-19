@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Singhal</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <nav>
+        <ul class="nav-list">
+            <li><a href="#landing">Home </a></li>
+            <li><a href="#about">About</a></li>
+            <li class="name-nav">Abhinav Singhal</li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#" id="showForm">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="landing" id="landing">
+            <div class="welcome welcome1">
+                <h1>Welcome To My Portfolio!!</h1>
+                <p>I'm Abhinav Singhal</p>
+                <p>I'm an Aspiring Web-Developer</p>
+                <br>
+            </div>
+            <div class="img-s1">
+                <img src="images/Abhinav.png" alt="Abhinav Singhal">
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="welcome">
+                <h1>About Me</h1>
+                <p>I'm Abhinav Singhal, a passionate web developer with a keen interest in creating dynamic and
+                    user-friendly websites. I have a strong foundation in HTML, CSS, and JavaScript, and I'm constantly
+                    learning new technologies to enhance my skills.</p>
+                <p>In my free time, I enjoy exploring new web development trends, contributing to open-source projects,
+                    and honing my skills through personal projects. I'm excited to connect with like-minded individuals
+                    and collaborate on innovative web solutions.</p>
+            </div>
+            <img src="images/abhinavs.png" alt="Abhinav Singhal">
+        </section>
+        <section class="Skills" id="Skills">
+            <div class="skills">
+                <h2>Skills</h2><br>
+                <table class="skills-table">
+                    <tr>
+                        <th>Developement</th>
+                        <th>Programming</th>
+                        <th>Database</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Python</td>
+                        <td>MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>C</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </section>
+        <section class="projects" id="projects">
+            <div class="proj-head">
+                <h1>Projects</h1>
+            </div>
+            <div class="cards">
+                <a href="https://github.com/Abhinav7506/TaskTrek">
+                    <div class="card">
+                        <img src="images/P1.jpg" alt="">
+                        <h2>Task Trek</h2>
+                        <p>TaskTrek is a Daily Planner project in which you can maintain a ToDo list , Create some notes
+                            and also write a diary which you can edit also...</p>
+                    </div>
+                </a>
+                <a href="https://github.com/Abhinav7506/The-Phantom-Programmers---AI-Budget-Assistant-BudgetBuddy">
+                    <div class="card">
+                        <img src="images/P2.jpg" alt="">
+                        <h2>Budget Buddy</h2>
+                        <p> Daily Budget Assistant is a smart financial management tool designed to help users track
+                            their daily expenses, analyze their spending patterns. The platform includes an Investment
+                            Suggestions feature that provides personalized recommendations on where users can invest
+                            their savings based on their financial goals and risk tolerance.</p>
+                    </div>
+                </a>
+                <a href="https://abhinav7506.github.io/Fashion_Store_Codechef/">
+                    <div class="card">
+                        <img src="images/P3.jpg" alt="">
+                        <h2>Fashion Store</h2>
+                        <p>This is a fashion store page. This is created with the use of only HTML and CSS and this is
+                            an assignment of Codechef</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none;"></iframe>
+
+        <div class="contact" id="contactSection">
+            <form id="contactForm" action="https://formsubmit.co/abhinavsinghal283@gmail.com" method="POST"
+                target="hidden_iframe">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" required></textarea><br>
+
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div id="thankyou">
+            <h3>Thank you! Your message has been sent.</h3>
+            <p>Click anywhere to close this message.</p>
+        </div>
+    </main>
+    <footer>
+        <ul class="social">
+            <li><a href="https://www.linkedin.com/in/abhinav-singhal-69a3b7266"><img src="images/linkedin.svg" alt="linkedin"></a></li>
+            <li><a href="https://github.com/Abhinav7506"><img src="images/github.svg" alt="giythub"></a></li>
+            <li><a href="mailto:abhinavsinghal283@gmail.com"><img src="images/gmail.svg" alt="mail"></a></li>
+            <li><a href="tel:+918700429877"><img src="images/phone.svg" alt="phone"></a></li>
+        </ul>
+        <ul class="foot-dash">
+            <li><a href="#landing">Home </a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#" id="showForm">Contact</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
